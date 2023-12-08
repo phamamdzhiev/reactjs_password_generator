@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #fb5e56;
+  --secondary-color: #181818;
+  --secondary-light-color: #333;
+  --border-radius: 15px;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+
+.generator {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  border-radius: var(--border-radius);
+  padding: 30px;
+  background-color: var(--secondary-light-color);
+  color: #fff;
+}
+.generator__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.generator__password {
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  color: #fff;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+  overflow: hidden;
+}
+.copy-btn {
+  appearance: none;
+  color: #fff;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.generator_btn {
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 100em;
+  font-size: 18px;
+  background-color: var(--primary-color);
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: gre;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+}
+
+input[type="number"] {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+}
